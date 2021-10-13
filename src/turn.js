@@ -3,7 +3,7 @@ const Card = require('../src/Card.js');
 class Turn {
   constructor(guess, card) {
     this.guess = guess;
-    this.card = new Card(card);
+    this.card = card;
     this.correct = false;
   }
 
@@ -28,6 +28,8 @@ class Turn {
   giveFeedback() {
     if (!this.correct) {
       return 'incorrect!';
+    } else {
+      return 'correct!'
     }
   }
 }
