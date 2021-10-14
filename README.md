@@ -55,7 +55,7 @@ Your answer of [answer chosen] is incorrect!
 ## Game in Action 
 
 ![game1](https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif)
-<img src="https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif" width="300" height="100" />
 
 ![game2]()
 
