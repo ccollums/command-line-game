@@ -1,6 +1,6 @@
 # FlashCards Command Line Game
 
-- FlashCards Command Line Game is a simple question and answer game to play on, you guessed it, your command line! It provides a user with a question, allows them to. make a guess at the answer and see their final score after all questions are completed. The questions are centered around Front-End Engieenering Mod 2 curriculum at Turing School of Software and Design.
+- FlashCards Command Line Game is a simple question and answer game to play on, you guessed it, your command line! It provides a user with a question, allows them to make a guess at the answer and see their final score after all questions are completed. The questions are centered around Front-End Engieenering Mod 2 curriculum at Turing School of Software and Design.
 
 
 ## Setup
@@ -41,11 +41,11 @@ Your answer of [answer chosen] is correct!
 Your answer of [answer chosen] is incorrect!
 ```
 
-- Once you recieve one of these messages hit return to get the next question. 
+- Once you recieve one of these messages hit return to move on to the next question. 
 - When you have gone through all of the questions this message will be displayed:
 
 ```bash
-**Round over! You have answered [percentage]% of the questions correctly!
+** Round over! You have answered [percentage]% of the questions correctly!
 ```
 
 ## Game in Action 
