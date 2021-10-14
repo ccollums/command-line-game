@@ -54,4 +54,6 @@ Your answer of [answer chosen] is incorrect!
 
 ## Game in Action 
 
-![game](http://www.giphy.com/gifs/eEqfYoB9t1XKgnVBwn)
+![game1](https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif)
+![game2]()
+
