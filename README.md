@@ -53,7 +53,8 @@ Your answer of [answer chosen] is incorrect!
 ```
 
 ## Game in Action 
-<img src="https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif" width="1000" height="500" />
+<img src="https://media.giphy.com/media/V0alzBsJolsYmfnbUf/giphy.gif" width="1100" height="600" />
 
-![game2]()
+
+
 
