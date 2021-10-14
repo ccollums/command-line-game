@@ -55,5 +55,7 @@ Your answer of [answer chosen] is incorrect!
 ## Game in Action 
 
 ![game1](https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif){width = 500px}
+<iframe src="https://giphy.com/embed/eEqfYoB9t1XKgnVBwn" width="480" height="272" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/game1-eEqfYoB9t1XKgnVBwn">via GIPHY</a></p>
+
 ![game2]()
 
