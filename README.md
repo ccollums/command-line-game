@@ -54,6 +54,6 @@ Your answer of [answer chosen] is incorrect!
 
 ## Game in Action 
 
-![game1](https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif = 300x300)
+![game1](https://media.giphy.com/media/eEqfYoB9t1XKgnVBwn/giphy.gif = 300px)
 ![game2]()
 
