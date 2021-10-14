@@ -1,5 +1,5 @@
-const Deck = require('../src/deck.js');
-const Turn = require('../src/turn.js');
+const Deck = require('../src/Deck.js');
+const Turn = require('../src/Turn.js');
 
 class Round {
   constructor(deck) {
