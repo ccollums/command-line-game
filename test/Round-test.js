@@ -15,9 +15,9 @@ describe('Round', function() {
   let round;
 
   beforeEach(function() {
-    card1 = new Card({ id: 1, question: 'What is Robbie\'s favorite animal', answers: ['sea otter', 'pug', 'capybara'], correctAnswer: 'sea otter'});
-    card2 = new Card({id: 14, question: 'What organ is Khalid missing?', answers: ['spleen', 'appendix', 'gallbladder'], correctAnswer: 'gallbladder'});
-    card3 = new Card({id: 12, question: 'What is Travis\'s favorite stress reliever?', answers: ['listening to music', 'watching Netflix', 'playing with bubble wrap'], correctAnswer: 'playing with bubble wrap'});
+    const card1 = new Card(1, 'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
+    const card2 = new Card(14, 'What organ is Khalid missing?', ['spleen', 'appendix', 'gallbladder'], 'gallbladder');
+    const card3 = new Card(12, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
     cards = [card1, card2, card3];
     deck = new Deck(cards);
     round = new Round(deck);
@@ -32,7 +32,7 @@ describe('Round', function() {
   });
 
   it('should store the current deck', function() {
-    expect(round.deck).to.deep.equal([card1, card2, card3]);
+    expect(round.deck).to.deep.equal(deck);
   });
 
   it('the turns for the round should start out at 0', function() {
@@ -70,6 +70,14 @@ describe('Round', function() {
     round.takeTurn('spleen');
     round.calculatePercentCorrect();
     expect(round.calculatePercentCorrect()).to.deep.equal(50);
+  })
+
+  it('should print out a message when the round is over', function() {
+    round.takeTurn('sea otter');
+    round.takeTurn('spleen');
+    round.calculatePercentCorrect();
+    round.endRound();
+    expect(round.endRound()).to.equal('** Round over! ** You answered 50% of the questions correctly!')
   })
 
 });
