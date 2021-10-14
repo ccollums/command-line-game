@@ -15,7 +15,7 @@ class Round {
     let turn = new Turn(guess, this.returnCurrentCard())
     this.turns++;
     turn.evaluateGuess();
-    if (turn.giveFeedback() === 'incorrect!'){
+    if (turn.giveFeedback() === 'incorrect!') {
       this.incorrectGuesses.push(this.returnCurrentCard().id)
     }
     return turn.giveFeedback();
@@ -29,8 +29,8 @@ class Round {
     } else {
       let percentage = percentageMath * 100;
       return percentage;
+    }
   }
-}
 
   endRound() {
     console.log(`** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`)

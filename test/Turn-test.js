@@ -9,9 +9,9 @@ describe('Turn', function() {
   let card;
   let turn;
   beforeEach(function() {
-   card = new Card(1,'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
-   turn = new Turn('pug', card);
- });
+    card = new Card(1, 'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
+    turn = new Turn('pug', card);
+  });
 
   it('should be a function', function() {
     expect(Turn).to.be.a('function');

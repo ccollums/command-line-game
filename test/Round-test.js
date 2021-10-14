@@ -1,6 +1,5 @@
 const chai = require('chai');
 const expect = chai.expect;
-
 const Deck = require('../src/deck.js');
 const Round = require('../src/round.js');
 const Card = require('../src/Card.js');
@@ -15,9 +14,9 @@ describe('Round', function() {
   let round;
 
   beforeEach(function() {
-    const card1 = new Card(1, 'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
-    const card2 = new Card(14, 'What organ is Khalid missing?', ['spleen', 'appendix', 'gallbladder'], 'gallbladder');
-    const card3 = new Card(12, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
+    card1 = new Card(1, 'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
+    card2 = new Card(14, 'What organ is Khalid missing?', ['spleen', 'appendix', 'gallbladder'], 'gallbladder');
+    card3 = new Card(12, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
     cards = [card1, card2, card3];
     deck = new Deck(cards);
     round = new Round(deck);
