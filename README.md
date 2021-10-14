@@ -2,6 +2,10 @@
 
 - FlashCards Command Line Game is a simple question and answer game to play on, you guessed it, your command line! It provides a user with a question, allows them to make a guess at the answer and see their final score after all questions are completed. The questions are centered around Front-End Engieenering Mod 2 curriculum at Turing School of Software and Design.
 
+## Technologies Used
+- Javascript 
+- Atom 
+- Test Driven Development (TDD)
 
 ## Setup
 
