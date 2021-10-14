@@ -26,10 +26,10 @@ class Turn {
   }
 
   giveFeedback() {
-    if (!this.correct) {
-      return 'incorrect!';
+    if (this.correct) {
+      return 'correct!';
     } else {
-      return 'correct!'
+      return 'incorrect!'
     }
   }
 }

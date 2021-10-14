@@ -9,7 +9,7 @@ describe('Turn', function() {
 let card;
 let turn;
 beforeEach(function(){
-   card = new Card({id: 1, question: 'What is Robbie\'s favorite animal', answers: ['sea otter', 'pug', 'capybara'], correctAnswer: 'sea otter'});
+   card = new Card(1,'What is Robbie\'s favorite animal', ['sea otter', 'pug', 'capybara'], 'sea otter');
    turn = new Turn('pug', card);
  });
 
