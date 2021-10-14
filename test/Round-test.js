@@ -80,4 +80,12 @@ describe('Round', function() {
     expect(round.endRound()).to.equal('** Round over! ** You answered 50% of the questions correctly!')
   })
 
+  it('should print out message with 100% if all questions are answered correctly', function() {
+    round.takeTurn('sea otter');
+    round.takeTurn('gallbladder');
+    round.calculatePercentCorrect();
+    round.endRound();
+    expect(round.endRound()).to.equal('** Round over! ** You answered 100% of the questions correctly!')
+  })
+
 });
